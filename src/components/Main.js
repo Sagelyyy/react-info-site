@@ -1,9 +1,9 @@
 import React from "react";
-//import '../style.css'
+import '../style.css'
  
 export default function Main(){
     return(
-        <div className="mainContainer">
+        <main className="mainContainer">
             <h1 className="title">Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
@@ -12,8 +12,6 @@ export default function Main(){
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-        </div>
+        </main>
     )
 }
-
-//test
